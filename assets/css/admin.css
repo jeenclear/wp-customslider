@@ -1,0 +1,110 @@
+
+/** style-sheet ( backend/admin/dashbaord ) **/
+.form-uploadimage__wrap,
+.widget-uploadimage__wrap {
+	margin-top: 20px;
+	position: relative;
+    display: inline-block;
+}
+.form-uploadimage__wrap img,
+.widget-uploadimage__wrap img {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	z-index: 3;
+}
+.form-uploadimage__wrap .no-image,
+.widget-uploadimage__wrap .no-image {
+	background: url('../images/icon-image-64.png') no-repeat scroll center center transparent;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.form-uploadimage__wrap #upload-img,
+.widget-uploadimage__wrap #upload-test {
+	position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+    color: #fff;
+    display: block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+	z-index: 4;
+}
+.form-uploadimage__wrap #remove-img,
+.widget-uploadimage__wrap #remove-test {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    color: white;
+    display: block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+	z-index: 4;
+}
+.wp-customslider__pad {
+	display: inline-block;
+    background: white;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #eee;
+}
+.wp-customslider__pad label {
+	display: block;
+}
+.customslider-textarea {
+	width: 300px;
+	height: 200px;
+}
+
+.wp-customslider__pad .error {
+	color: red;
+}
+/* Mange List */
+.manage-slider__entry {
+	background: #fff;
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.manage-slider__pad  {
+	border: 1px solid #e5e5e5;
+	margin-top: 40px;
+}
+.manage-slider__pad .manage-slider__name, 
+.manage-slider__pad .manage-slider__desc {
+	width: 150px;
+}
+.manage-slider__pad .manage-slider__checkbox,
+.manage-slider__pad .manage-slider__name,
+.manage-slider__pad .manage-slider__image,
+.manage-slider__pad .manage-slider__desc,
+.manage-slider__pad .manage-slider__delete {
+	float: left;
+	padding: 10px;
+}
+.manage-slider__option {
+	overflow: hidden;
+	padding-top: 20px;
+}
+.manage-slider__option .manage-slider__deleteall {
+	margin-top: 5px;
+}
+.manage-slider__option .manage-slider__deleteall,
+.manage-slider__option .manage-slider__deletesubmit {
+	float: left;
+}
+.manage-slider__deleteall .delete_all {
+	margin-left: 10px;
+	margin-right: 20px;
+}

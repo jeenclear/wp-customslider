@@ -1,0 +1,12 @@
+
+/** style-sheet ( frontend ) **/
+.wp-customslider__entry img {
+	width: 100%;
+}
+.slick-list,
+.slick-track {
+	overflow: hidden;
+}
+.wp-customslider__entry {
+	float: left;
+}
